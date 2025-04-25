@@ -7,7 +7,7 @@ services:
        context: .
        dockerfile: Dockerfile
        args:
-          DATABASE_URL: postgres://postgres:asdf1234@db:5432/postgres
+          DATABASE_URL: postgres://postgres:password@db:5432/postgres
     ports:
           - '8080:8080'
     depends_on:
