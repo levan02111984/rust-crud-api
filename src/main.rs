@@ -19,7 +19,7 @@ struct  User{
 }
 
 //DATABASE_URL
-const DB_URL: &str = "postgres://postgres:asdf1234@localhost:5432/postgres";
+const DB_URL: &str = "postgres://postgres:password@localhost:5432/postgres";
  //env!("DATABASE_URL");
 
 //constants
